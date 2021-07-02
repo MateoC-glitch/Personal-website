@@ -1,0 +1,179 @@
+/* TAG SELECTORS */
+body {
+  overflow-x: hidden;
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+main {
+  padding: 5%;
+  color: #fff;
+}
+/* CLASS SELECTORS */
+.lead {
+  font-weight: 100;
+}
+
+.card {
+  border: 1px solid #fff;
+}
+
+.skill-card {
+  margin-bottom: 10px;
+}
+
+.carousel-item {
+  padding: 100px 200px;
+}
+
+.social-icon-bg {
+  padding: 10px;
+  color: #343a40;
+}
+
+.social-icon {
+  padding: 10px;
+  color: #fff;
+}
+
+.quote-mark {
+  font-family: "Catamaran", sans-serif;
+}
+
+.case-study-img {
+  width: 80%;
+}
+
+/* ID SELECTORS */
+#title {
+  padding: 3%;
+}
+
+#projects-intro {
+  padding: 3%;
+}
+
+#contact-intro {
+  padding: 3%;
+}
+
+#contact-form {
+  padding: 100px 200px;
+}
+
+#profile-img {
+  width: 100%;
+}
+
+#skill-set {
+  color: #fff;
+  padding: 3% 10%;
+}
+
+#testimonials {
+  padding: 3%;
+}
+
+#featured-projects {
+  color: #fff;
+  padding: 3%;
+}
+
+#cta {
+  padding: 3%;
+}
+
+#cta-profile-img {
+  width: 100px;
+}
+
+#footer {
+  color: #fff;
+  padding: 3%;
+}
+
+#contact-main {
+  color: #fff;
+  padding: 3%;
+}
+
+#other-social {
+  padding: 5%;
+}
+
+#cv-intro {
+  padding: 7% 15%;
+}
+
+#personal-info {
+  padding: 3%;
+}
+
+#qualification {
+  padding: 3%;
+}
+
+#career-bio {
+  padding: 3%;
+}
+
+#skills-learnt {
+  padding: 3%;
+}
+
+#skill-container {
+  margin: 5% 0;
+}
+
+#case-study-intro {
+  padding: 3%;
+}
+
+@media (max-width: 900px) {
+  .carousel-item {
+    padding: 10% 10px;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+
+  .case-study-img {
+    width: 100%;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  #profile-img {
+    width: 200px;
+  }
+
+  #contact-form {
+    padding: 10px;
+  }
+}
