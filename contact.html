@@ -83,7 +83,15 @@
 
       <div id="contact-form">
         <h3 class="display-5">Get In Touch</h3>
-        <form>
+        <form
+          action="https://formsubmit.co/mateocoetzee15@gmail.com"
+          method="POST"
+        >
+          <input
+            type="hidden"
+            name="_next"
+            value="https://mateoc-glitch.github.io/index.html"
+          />
           <div class="mb-3">
             <label for="user-name" class="form-label">Full Name</label>
             <input
@@ -91,6 +99,7 @@
               class="form-control"
               id="user-name"
               placeholder="Please enter your full name"
+              required
             />
           </div>
           <div class="mb-3">
@@ -100,6 +109,7 @@
               class="form-control"
               id="user-email"
               placeholder="name@example.com"
+              required
             />
           </div>
           <div class="mb-3">
